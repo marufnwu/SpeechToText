@@ -1,0 +1,10 @@
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mic_animation"
+    android:oneshot="false">
+    <item
+        android:drawable="@drawable/mic_anim_low"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/mic_anim_high"
+        android:duration="200" />
+</animation-list>
